@@ -43,27 +43,27 @@ PKU-LF/
 ```
 
 ### 2. Create and activate conda environment
-```
+``` bash
 cd "CRFusion root path"
 conda create --name crfusion python=3.6.12
 conda activate crfusion
 pip install -r requirments.txt
 ```
 ### 3. Modify the config
-```
+``` bash
 (1) data.py: Your data path
 (2) train.py: Your pretrained pth file path
 ```
 ### 4. Train
 To start training, just run the following code.
-```
+``` bash
 python train.py
 ```
 ### 5. Inference
 To inference, first modify the inference model path "pth_root" in test.py
 
 Then, run the following code:
-```
+``` bash
 python test.py
 ```
 ### 5. Evaluation metric
