@@ -74,11 +74,11 @@ To ensure a fair and accurate evaluation of our work, the prediction saliency ma
 <br>
 
 <div align="center">
-<img src="fig/visual.jpg" style="width: 95%">
+<img src="./fig/visual.jpg" style="width: 95%">
 </div>
 Visualization of qualitative analysis results, illustrating performance in scenarios involving similar object interference, complex backgrounds, and fine-grained segmentation.
 <div align="center">
 <br>
-<img src="fig/ablation_rsfm_cssm.jpg" style="width: 95%">
+<img src="./fig/ablation_rsfm_cssm.jpg" style="width: 95%">
 </div>
 Comparison of response map visualizations for different component applications. Here, (a) shows response maps of the RSFM, (b) shows response maps of the CSSM, (c) shows response maps of the CRFusion.
