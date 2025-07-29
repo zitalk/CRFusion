@@ -69,7 +69,7 @@ python test.py
 ### 5. Evaluation metric
 The evaluation metric results are generated using a uniform evaluation code: https://github.com/lartpang/PySODEvalToolkit.
 
-To ensure a fair and accurate evaluation of our work, the prediction saliency maps of competing methods are generated using their published code. The saliency map results predicted by our model are available in the [`repo/Results`](./Results/) directory. 
+To ensure a fair and accurate evaluation of our work, the prediction saliency maps of competing methods are generated using their published code. The saliency map results predicted by our model are available in the [`Results on DUTLF-V2`](./Results/DUTLF-V2.zip) directory. 
 
 <br>
 
