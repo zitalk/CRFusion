@@ -2,9 +2,8 @@
 
 # <span style="color: red; font-size: 1.5em;">We sincerely thank all reviewers !</span>
 
-<div align="center">
-<img src="fig/overview.jpg" style="width: 95%">
-</div>
+
+![overview](./fig/overview.jpg)
 An overview of the proposed CRFusion. (a) CRFusion is a light-field feature fusion framework that explicitly facilitates cross-domain semantic integration and ensures multi-scale consistency. (b) Architecture of the Recursive Semantic Fusion Module (RSFM). (c) Architecture of the Mamba Fusion Block.
 
 <br>
@@ -73,12 +72,11 @@ To ensure a fair and accurate evaluation of our work, the prediction saliency ma
 
 <br>
 
-<div align="center">
-<img src="./fig/visual.jpg" style="width: 95%">
-</div>
+![visual](./fig/visual.jpg)
 Visualization of qualitative analysis results, illustrating performance in scenarios involving similar object interference, complex backgrounds, and fine-grained segmentation.
-<div align="center">
+
 <br>
-<img src="./fig/ablation_rsfm_cssm.jpg" style="width: 95%">
-</div>
+
+![ablation_rsfm_cssm](./fig/ablation_rsfm_cssm.jpg)
+
 Comparison of response map visualizations for different component applications. Here, (a) shows response maps of the RSFM, (b) shows response maps of the CSSM, (c) shows response maps of the CRFusion.
