@@ -2,11 +2,13 @@
 
 # <span style="color: red; font-size: 1.5em;">We sincerely thank all reviewers !</span>
 
+<br>
 
 ![overview](./fig/overview.jpg)
 An overview of the proposed CRFusion. (a) CRFusion is a light-field feature fusion framework that explicitly facilitates cross-domain semantic integration and ensures multi-scale consistency. (b) Architecture of the Recursive Semantic Fusion Module (RSFM). (c) Architecture of the Mamba Fusion Block.
 
 <br>
+
 4D light field data contains rich spatial and angular information, providing a more comprehensive feature representation for Salient Object Detection (SOD). However, the inherent structural disparities between the spatial and angular domains introduce a semantic gap during the fusion process, presenting significant challenges in effectively modeling cross-domain semantic complementarity and ensuring multi-scale semantic consistency. To address this, we propose a Cross-scale Recursive Fusion network (CRFusion), which introduces Mamba dynamic memory as the semantic bridge for cross-domain fusion, recursively fusing spatial and angular information across multi-scale spaces. The key design of CRFusion is the Recursive Semantic Fusion Module (RSFM), which leverages the hidden states of Mamba as dynamic memory to perform effective recursive fusion across domains, thereby capturing the semantic complementarity between the spatial and angular domains. In addition, we propose the Cross-scale Semantic Sensing Modeling (CSSM) mechanism, which stacks RSFM across multiple scales. It utilizes dynamic memory as a semantic bridge to model semantic consistency across multi-scale space. Extensive experiments on the DUTLF-V2 and PKULF datasets validate the effectiveness of our method in facilitating cross-domain semantic complementarity and ensuring multi-scale semantic consistency, achieving outstanding performance compared to state-of-the-art methods.
 
 ## Preparations
